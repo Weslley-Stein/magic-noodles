@@ -9,31 +9,31 @@ const option3 = document.querySelector('#option3');
 const spicyNoodles = () => {
     table.style.display = 'flex'
     th1.innerHTML = 'Soft Hot';
-    option1.src = './img/ramen1.jpg'
+    option1.src = 'https://imgur.com/ygXCzuY'
     th2.innerHTML = 'Hot';
-    option2.src = './img/ramen2.jpg'
+    option2.src = 'https://imgur.com/x6JWyww'
     th3.innerHTML = 'Extremely Hot';
-    option3.src = './img/ramen8.jpg'
+    option3.src = 'https://imgur.com/y46jrC7'
         
 };
 
 const tradicionalNoodles = () => {
     table.style.display = 'flex'
     th1.innerHTML = 'Shoyu Soup';
-    option1.src = './img/ramen3.jpg'
+    option1.src = 'https://imgur.com/MiXBp2m'
     th2.innerHTML = 'Miso Soup';
-    option2.src = './img/ramen4.jpg'
+    option2.src = 'https://imgur.com/OLC6Rgo'
     th3.innerHTML = 'Pork Soup';
-    option3.src = './img/ramen6.jpg'
+    option3.src = 'https://imgur.com/qgG4u98'
 };
 
 const specialNoodles = () => {
     table.style.display = 'flex'
     th1.innerHTML = 'Bacon Noodle';
-    option1.src = './img/ramen5.jpg'
+    option1.src = 'https://imgur.com/0g3xN2Z'
     th2.innerHTML = 'Seafood';
-    option2.src = './img/ramen7.jpg'
+    option2.src = 'https://imgur.com/PRcRTgL'
     th3.innerHTML = 'Surprise ingredients';
-    option3.src = './img/ramen9.jpg'
+    option3.src = 'https://imgur.com/xe6kwRZ'
 
 };
