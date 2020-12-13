@@ -83,6 +83,7 @@
     height: 400px;
     margin: 0;
     padding: 0;
+    border: 3px solid black;
 }
 
 #footer{
