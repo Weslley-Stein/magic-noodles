@@ -13,7 +13,7 @@
 }
 
 #main {
-  background: url(./img/Background.jpg);
+  background: url(./img/Background.jpg) center top no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -23,7 +23,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #ce3600;
+  background: #2a436a;
   border-radius: 15px;
   padding: 10px;
   opacity: 90%;
@@ -53,8 +53,8 @@
   }
 
 .noodle-select:hover{
-   color: #ff9392;
-   border-bottom: 3px solid #ffbb54 !important;
+   color: #318a9f;
+   border-bottom: 3px solid #d49962 !important;
 }
 
 #menu{
@@ -70,8 +70,8 @@
 }
 
 #th-1, #th-2, #th-3{
-    background: #ce3600;
-    color: black;
+    background: #2a436a;
+    color: #318a9f;
     border: 3px solid black;
 }
 #row-1 td {
@@ -91,7 +91,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    background: #ce3600;
+    background:#2a436a; 
     padding: 15px 0px;
     opacity: 90%;
     height: 100px;
