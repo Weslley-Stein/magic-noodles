@@ -8,30 +8,29 @@
   list-style: none;
   text-decoration: none;
   font-family: 'takoyaki';
+  color: black;
 }
 
-button {
-  background: none;
-  outline: none;
-  stroke: none;
-  border: none;
-  font-size: 32px;
-  color: #ce3600;
-}
+
 
 #main {
   background: url(./img/Background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  align-self: center;
+  background: #ce3600;
+  border-radius: 20px;
+  padding: 10px;
+  opacity: 90%;
 }
 
 #header__title {
-  color: #ce3600;
   margin: 0px 40px;
   font-weight: bold;
   font-size: 48px;
@@ -45,4 +44,26 @@ button {
   margin: 0px 5px;
   font-size: 24px;
   font-weight: bold;
+}
+
+#spicy-noodles, #tradicional-noodles, #special-noodles{
+    background: none;
+    outline: none;
+    stroke: none;
+    border: none;
+    font-size: 32px;
+  }
+
+.noodle-select:hover{
+    color: blue;
+}
+
+#footer{
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background: #ce3600;
+    padding: 15px 0px;
+    opacity: 90%;
 }
