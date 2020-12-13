@@ -1,8 +1,48 @@
-*{
-    list-style: none;
+@font-face{
+    src: url(src/TAKOYAKI.ttf);
+    font-family: 'takoyaki';
+    font-style: normal;
+    font-weight 400;
+}
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'takoyaki';
 }
 
-#header__logo{
-    display: flex;
-    justify-content: center;
+button {
+  background: none;
+  outline: none;
+  stroke: none;
+  border: none;
+  font-size: 32px;
+  color: #ce3600;
+}
+
+#main {
+  background: url(./img/Background.jpg);
+}
+
+#header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+}
+
+#header__title {
+  color: #ce3600;
+  margin: 0px 40px;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+#nav-list {
+  display: flex;
+}
+
+.nav-item {
+  margin: 0px 5px;
+  font-size: 24px;
+  font-weight: bold;
 }
