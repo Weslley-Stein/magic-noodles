@@ -65,13 +65,24 @@
 
 #menu tr, #menu tr td {
     font-size: 32px;
-    color: #ce3600;
-    border: 3px solid black;
     width: 230px;
+    text-align: center;
 }
 
+#th-1, #th-2, #th-3{
+    background: #ce3600;
+    color: black;
+    border: 3px solid black;
+}
 #row-1 td {
-    height: 500px;
+    height: 400px;
+}
+
+#option1, #option2, #option3 {
+    width: 230px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
 }
 
 #footer{
