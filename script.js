@@ -35,5 +35,4 @@ const specialNoodles = () => {
     option2.src = './img/Ramen7.jpg'
     th3.innerHTML = 'Surprise ingredients';
     option3.src = './img/Ramen9.jpg'
-
 };
